@@ -120,6 +120,7 @@ button:hover {
     position: absolute;
     top: 140px;
     left: 530px;
+    -webkit-user-select: none;
     user-select: none;
     animation: win95 4s infinite;
     transition-delay: 300ms;
@@ -160,6 +161,7 @@ button:hover {
     display: flex;
     justify-content: left;
     bottom: 0px;
+    -webkit-user-select: none;
     user-select: none;
 }
 
