@@ -70,6 +70,7 @@ a {
     width: 300px;
     height: 300px;
     z-index: 1;
+    display: flex;
     position: absolute;
     top: 140px;
     left: 530px;
@@ -137,4 +138,10 @@ a {
     margin: 5px;
     font-family: inconsolata;
     font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+    .win95 {
+        width: 100%;
+    }
 }
