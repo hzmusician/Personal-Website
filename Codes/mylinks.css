@@ -67,8 +67,8 @@ a {
     height: 50px;
 }
 .box {
-    width: 666px;
-    min-height: 350px;
+    width: 400px;
+    min-height: 250px;
     background-color: #bcbcbc;
     position: relative;
     top: -350px;
@@ -79,17 +79,27 @@ a {
     border: 2px solid #111;
     box-shadow: 5px 5px 5px #111;
 }
-.logos a img{ 
-    width: 70px;
-    height: auto;
-    margin: 15px;
-    padding: 15px;    
+.logos { 
+    width: 360px;
+    min-height: 210px;
+    background-color: #fff;
+    color: black;
+    margin: 5px;
+    padding: 15px; 
+    text-align: center;
 }
-abbr { 
-    background-color: #111166;
+abbr {
+    position: relative;
+    top: 50px;
+    color: #111;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-family: inconsolata;
+    font-weight: bolder;
 }
 .top {
-    width: 666px;
+    width: 400px;
     height: 20px;
     background-color: #111166;
     position: absolute;
