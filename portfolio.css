@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bungee+Hairline&family=Comfortaa:wght@300&family=Inconsolata:wght@300&family=Klee+One&family=Lato:wght@300&family=Orbitron&family=Oswald:wght@200&family=Roboto:wght@100&family=Vollkorn&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    /*background-image: linear-gradient(to bottom right, #746ab0, #22c1c3);*/
+    background-color: #048383;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /*Ögeleri alt alta getirmek için kullandık*/
+}
+
+.computer {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+
+.search {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+
+.links {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+
+.cd {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+
+.history {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+
+.hack {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+
+span {
+    color: rgb(255, 255, 255, 0.8);
+    font-family: inconsolata;
+    font-weight: bolder;
+    opacity: 0.8;
+    margin: 3px;
+    padding: 3px;
+    width: 100px;
+}
+a {
+    width: 70px;
+    height: 50px;
+}
+.box {
+    width: 450px;
+    min-height: 250px;
+    background-color: #bcbcbc;
+    position: relative;
+    top: -300px;
+    left: 700px;
+    z-index: +2;
+    user-select: none;
+    -webkit-user-select: none;
+    border: 2px solid #111;
+    box-shadow: 5px 5px 5px #111;
+}
+p {
+    position: absolute;
+    top: 20px;
+    margin: 20px;
+    padding: 3px;
+    border: 1px solid #111;
+    background-color: white;
+}
+.top {
+    width: 450px;
+    height: 20px;
+    background-color: #111166;
+    position: absolute;
+    border: 1px solid #111;
+}
+.cross {
+    width: 30px;
+    margin: 3px;
+    float: right;
+}
+.win95 {
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    position: absolute;
+    top: 140px;
+    left: 530px;
+    user-select: none;
+    -webkit-user-select: none;
+    animation: win95 4s infinite;
+    transition-delay: 300ms;
+}
+
+@keyframes win95 { 
+    0% { 
+        transform: translateX(-20px);
+        opacity: 0.8;
+    }
+
+    25% {
+        transform: translateY(20px);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: translateX(20px);
+        opacity: 0.8;
+    }
+
+    75% {
+        transform: translateY(-20px);
+        opacity: 0.5;
+    }
+
+    100% { 
+        transform: translateX(-20px);
+        opacity: 0.8;
+    }
+}
+
+.foot {
+    width: 100%;
+    height: 30px;
+    background-color: #afb6b6;
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    bottom: 0px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.start {
+    width: 70px;
+    height: 35px;
+    position: relative;
+    left: 0px;
+    border: 1px solid #111;
+    box-shadow: 5px 5px 5px solid #111;
+}
+
+.searchlogo {
+    width: 35px;
+    height: auto;
+}
+
+.date {
+    position: absolute;
+    right: 0px;
+    margin: 5px;
+    font-family: inconsolata;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+    .win95 {
+        width: 100%;
+    }
+}
